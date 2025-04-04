@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencia al Día</title>  
+    <link rel="stylesheet" href="Ciencia%20al%20D%C3%ADa_files/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Ciencia%20al%20D%C3%ADa_files/favicon.png">
+        <!-- Enlace a la librería de Font Awesome para los iconos -->
+        <link rel="stylesheet" href="Ciencia%20al%20D%C3%ADa_files/all.min.css">
+        <style>
+            /* Estilos para centrar el footer y los iconos */
+            body {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+    
+            footer {
+                margin-top: auto;
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+            }
+    
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                gap: 20px
+            }
+    
+            .social-icons a {
+                text-decoration: none;
+                color: #000; 
+                font-size: 24px; 
+            }
+    
+            .social-icons a:hover {
+                color: #0073e6; 
+            }
+      
+        body {
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            background-color: #1c3f60;
+            text-align: center;
+            background-image: url('images/background-blue.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #0d253f;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-content img {
+            width: 50px;
+            height: 50px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: #ffffff;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: left;
+            color: black;
+        }
+
+        tr:nth-child(even) {
+            background: #74a9d8;
+        }
+
+        th {
+            background: #0d253f;
+            padding: 12px;
+            text-align: center;
+            color: white;
+        }
+
+        .status-icon {
+            font-size: 20px;
+        }
+
+        form {
+            background-color: #0d253f;
+            color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        form input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            display: none;
+        }
+
+        .resources {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #0d253f;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="1743" alt="Icono Ciencia">
+            <h1>Ciencia al Día</h1>
+        </div>
+    </header>
+
+    <hr style="border: 1px solid #4178a0">
+
+    <h2>Experimentos Recientes</h2>
+
+    <table>
+        <tbody><tr>
+            <th>Tema</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>H<sub>2</sub>O</td>
+            <td>7 de julio de 2006</td>
+            <td class="status-icon">✔️</td>
+        </tr>
+        <tr>
+            <td>E = mc<sup>2</sup></td>
+            <td>27 de septiembre de 1905</td>
+            <td class="status-icon">⌛</td>
+        </tr>
+    </tbody></table>
+
+    <hr style="border: 1px solid #4178a0">
+
+    <h2>Suscríbete a nuestro boletín</h2>
+
+    <form id="formulario">
+        <label for="nombre">Nombre <span class="required">*</span>:</label>
+        <input type="text" id="nombre" name="nombre" required=""><br>
+
+        <label for="email">Email <span class="required">*</span>:</label>
+        <input type="email" id="email" name="email" required="">
+        <p class="error" id="errorEmail">⚠️ Debe ser un correo de Gmail (@gmail.com)</p><br>
+
+        <label for="password">Contraseña <span class="required">*</span>:</label>
+        <input type="password" id="password" name="password" required=""><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr style="border: 1px solid #4178a0">
+
+    <h2> video </h2>
+
+    <iframe width="560" height="315" src="Ciencia%20al%20D%C3%ADa_files/sQ22pm-xvrE.htm" title="Química Cuántica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<img width="190" height="190" src="Ciencia%20al%20D%C3%ADa_files/ici-instituto-curitiba-de-informatica-logo-png_seeklogo-6954.png" alt="">
+    <div class="resources">
+        <h3>Materiales Necesarios</h3>
+        <ol>
+            <li>Agua destilada</li>
+            <li>Alcohol etílico</li>
+            <li>Vasos de precipitados</li>
+        </ol>
+
+        <h3>Pasos del Método Científico</h3>
+        <ul>
+            <li>Observar el fenómeno</li>
+            <li>Formular una hipótesis</li>
+            <li>Realizar experimentos</li>
+            <li>Analizar los resultados</li>
+            <li>Publicar conclusiones</li>
+        </ul>
+    </div>
+
+    
+        <p>© 2025 Instituto de Ciencias Innovadoras</p>
+    
+    
+    
+    
+        <div class="social-icons">
+            
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    
+
+
+    
+    
+
+    <script>
+        document.getElementById("formulario").addEventListener("submit", function(event) {
+            let email = document.getElementById("email").value;
+            let errorEmail = document.getElementById("errorEmail");
+
+            if (!email.endsWith("@gmail.com")) {
+                errorEmail.style.display = "block";
+                event.preventDefault();
+            } else {
+                errorEmail.style.display = "none";
+            }
+        });
+        
+    </script>
+    
+        
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>
